@@ -1,0 +1,8 @@
+@import '../../variables.css';
+
+.desc {
+  font-family: var(--body-font);
+  line-height: 1.4;
+  color: hsl(300, 69%, 94%);
+  margin-bottom: 1.2rem;
+}

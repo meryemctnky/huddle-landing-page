@@ -1,0 +1,14 @@
+@import '../../variables.css';
+
+.title {
+  font-family: var(--headings-font-600);
+  font-size: 1.6rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+}

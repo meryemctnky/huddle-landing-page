@@ -1,0 +1,19 @@
+@import '../../variables.css';
+
+.btn {
+  padding: 0.7rem 3.1rem;
+  font-family: var(--headings-font);
+  font-size: 1rem;
+  color: var(--Violet);
+  box-shadow: hsl(257, 40%, 29%) 0px 2px 8px 0px;
+  background-color: white;
+  border: 0;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--Soft-Magenta);
+  color: white;
+}
